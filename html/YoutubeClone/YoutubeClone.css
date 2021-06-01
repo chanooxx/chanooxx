@@ -1,0 +1,40 @@
+:root {
+    /* color */
+    --white-color: #fff;
+    --red-color: #ff0000;
+    --black-color: #030303;
+    --blue-color: #2181db;
+    --gray-dark-color: #757575;
+    --gray-light-color: #999797;
+
+    /* font-size */
+    --size-large: 18px;
+    --size-midium: 14px;
+    --size-small: 12Px;
+    --size-micro: 10px;
+
+    /* size */
+    --padding: 12px;
+    --avatar: 36px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--black-color);
+    padding: var(--padding);
+    color: var(--white-color);
+}
+.header .logo i {
+    color:var(--red-color);
+}

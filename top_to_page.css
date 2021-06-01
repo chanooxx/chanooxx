@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    position: relative;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+    padding: 50px;
+
+}
+
+h1 {
+    align-content: center;
+    margin: auto;
+    
+    text-align: center;
+}
+
+h1::after {
+    display: block;
+    content: '＋　＋　＋';
+
